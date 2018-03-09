@@ -1,0 +1,12 @@
+DirectoryIndex under_construction.html index.php index.html
+Options +FollowSymLinks
+RewriteEngine On
+
+#RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA]
+#this isnt working on procedural proggraming

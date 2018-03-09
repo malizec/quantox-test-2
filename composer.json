@@ -1,0 +1,17 @@
+{
+    "name": "malizec/quantox-test",
+    "description": "Quantox test for PHP backend developer",
+    "authors": [
+        {
+            "name": "Nenad Cvetkovic",
+            "email": "nenadcv@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
